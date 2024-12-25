@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fluid {
+  height: 100vh;
+}
+
+.profile-section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  max-width: 180px;
+  max-height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.contact-info p {
+  font-size: 1.5rem;
+  text-shadow: 0 0 8px #c4c0bd;
+  border: 2px solid #c4c0bd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info p i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.orange-section {
+  background-color: #F7941D;
+  color: white;
+  height: 100%;
+  padding: 2rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  border: 2px solid #c4c0bd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.majors p {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.year {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.form-box {
+  background-color: transparent;
+  border: 2px solid #c4c0bd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-box:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.02);
+}
+
+.form-box a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.form-box a:hover {
+  color: #F7941D;
+}
+
+.projects-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-box li {
+  margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+  img {
+      max-width: 200px;
+      max-height: 200px;
+      margin-top: 15px;
+  }
+
+  .orange-section {
+      padding: 1.5rem;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.5rem;
+  }
+
+  h3 {
+      font-size: 1.25rem;
+  }
+
+  .majors p {
+      font-size: 1rem;
+  }
+
+  .contact-info p {
+      font-size: 1.2rem;
+  }
+}

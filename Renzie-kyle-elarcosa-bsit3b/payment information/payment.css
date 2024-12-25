@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    max-width: 600px;
+}
+.form-label {
+    font-weight: bold;
+}
+.credit-card-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.credit-card-icons i {
+    font-size: 24px;
+    color: #34495e;
+}
+.input-group-text {
+    background-color: #e9ecef;
+    border-right: none;
+}
+.input-group .form-control {
+    border-left: none;
+}
+.invalid-feedback {
+    color: #e74c3c;
+}
+.btn-primary {
+    background-color: #f57224;
+    border-color: #f57224;
+}
+.btn-primary:hover {
+    background-color: #e4611a;
+    border-color: #e4611a;
+}
+.input-group-text {
+    background-color: #e9ecef;
+    border: none;
+}
